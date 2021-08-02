@@ -7,7 +7,7 @@ bin/
 .mvn/
 mvnw
 mvnw.cmd
-
+.gradle/
 
 ### STS ###
 .apt_generated
