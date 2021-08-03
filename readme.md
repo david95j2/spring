@@ -14,3 +14,13 @@
 ```
 gradle init
 ```
+
+
+## complie vs implementation
+A <- B <- C와 같이 B, C가 A라는 모듈을 의존하고 있다고 가정하자,
+
+- 'Complie' 사용 시
+  - A라는 모듈을 수정하게 되면, 이 모듈을 직접 혹은 간접적으로 의존하고 있는 B와 C 모듈은 모두 재빌드 되어야 한다.
+    
+- 'Implementation' 사용 시
+  - A라는 모듈을 수정하게 되면, 이 모듈을 직접 의존하고 있는 B만 재빋드한다.
