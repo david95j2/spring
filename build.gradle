@@ -38,13 +38,16 @@ dependencies {
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
 
     // 스프링 부트 관련 의존성
+    implementation 'org.springframework.boot:spring-boot-starter'
+    runtimeOnly 'mysql:mysql-connector-java'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
     implementation 'org.springframework.boot:spring-boot-starter-web:2.5.3'
-//    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '2.5.3'
-//    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-jdbc', version: '2.5.3'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '2.5.3'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-jdbc', version: '2.5.3'
     testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.5.3'
 
     // mysql 및 mybatis 사용 의존성.
-//    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.26'
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.0'
 
     // JPA에서 toEntity를 간편하게 하기 위해 사용.
