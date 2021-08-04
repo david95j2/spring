@@ -2,6 +2,8 @@
 ---
 ---
 ## clean code 와 test를 생활화 해보자~!!
+- 단축키
+    - ctrl + alt + s : 설정 창 열기 
 ---
 ---
 ## 가장 먼저 maven 에서 gradle 로 변환하기 필요!
