@@ -8,6 +8,6 @@ public class ApplicationTests {
 
     @Test
     public void ContextLoad() {
-        System.out.println("머냐");
+        
     }
 }
