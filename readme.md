@@ -26,3 +26,17 @@ A <- B <- C와 같이 B, C가 A라는 모듈을 의존하고 있다고 가정하
     
 - 'Implementation' 사용 시
   - A라는 모듈을 수정하게 되면, 이 모듈을 직접 의존하고 있는 B만 재빋드한다.
+  
+
+
+## swagger 란
+1. 스웨거(Swagger)란?
+
+- OpenAPI Spec 에 맞게 디자인하고 문서화하고 빌드하기 위한 도구들의 모음으로 다음과 같은 구성요소로 이루어져 있다.
+
+- Swagger Editor
+  - 브라우저 기반의 편집기로 OpenAPI spec을 쉽게 작성할 수 있도록 도움
+- Swagger Ui
+  - OpenAPI spec 문서를 deploy하고 브라우저에서 표시될 수 있도록 한다. 
+- Swagger Codegen
+  - Client의 stub code 를 생성, 개발자는 생성된 코드에 비즈니스 로직에 집중햇 구현.
