@@ -1,4 +1,4 @@
-package com.springBoot.www.task;
+package com.springBoot.www.task.dto;
 
 public class MemberDto {
 	private  String loginId;
