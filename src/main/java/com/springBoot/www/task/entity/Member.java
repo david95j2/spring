@@ -15,4 +15,15 @@ public class Member {
 	private String loginId;
 	private String loginPw;
 	private String email;
+
+	public Member(int id, String loginId, String loginPw, String email) {
+		this.id = id;
+		this.loginId = loginId;
+		this.loginPw = loginPw;
+		this.email = email;
+	}
+
+	public Member() {
+
+	}
 }

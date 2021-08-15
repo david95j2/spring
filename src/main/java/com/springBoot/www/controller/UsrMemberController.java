@@ -1,11 +1,10 @@
 package com.springBoot.www.controller;
 
 import com.springBoot.www.task.MemberService;
+import com.springBoot.www.task.dto.MemberDto;
+import com.springBoot.www.task.request.body.MemberRequestBody;
 import com.springBoot.www.task.request.serach.MemberSerachRequest;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/usr/member")
@@ -22,8 +21,13 @@ public class UsrMemberController {
 		return "usr/member/join";
 	}
 
-	@GetMapping("/usr/print")
-	public String showUser(@ModelAttribute MemberSerachRequest request) {
-		return memberService.showUser(request);
+	@GetMapping("/print")
+	public MemberDto showUser(@ModelAttribute MemberSerachRequest request) {
+		return memberService.searchMemberInfo(request);
+	}
+
+	@PostMapping("/info")
+	public String memberInfoSave(@ModelAttribute MemberRequestBody requestBody) {
+		return memberService.saveMemberInfo(requestBody);
 	}
 }
