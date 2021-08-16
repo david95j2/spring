@@ -1,11 +1,15 @@
 package com.springBoot.www.task.dto;
 
 import com.springBoot.www.task.entity.Member;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class MemberDto {
     private String loginId;
     private String loginPw;
