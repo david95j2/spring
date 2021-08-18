@@ -83,3 +83,10 @@ Executor의 구조는 프로듀서-컨슈머 패턴에 기반하고 있으며, �
   - 태스크 큐를 이용해 태스크를 관리
   - Executor Service를 더이상 필요 없으면 중지
   - Executor Service가 멈추면 모든 쓰레드도 중지
+  
+
+## MapStruct
+
+- Entity와 Dto간의 매핑을 지원하는 라이브러리다.
+- Entity와 Dto간의 매핑을 위해 getter/setter를 남발하며 직접 구현하는 것을 지원하는 라이브러리는 크게 ModelMapper와 MpaStruct가 있다.
+- 주로 쓰이는 ModelMapper와 비교했을때, MapStruct는 컴파일시 미리 생성된 구현체를 통해 Mapping하기 때문에 속도적인 측면에서 이점으로 사용했다.
