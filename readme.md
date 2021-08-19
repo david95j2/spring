@@ -90,3 +90,8 @@ Executor의 구조는 프로듀서-컨슈머 패턴에 기반하고 있으며, �
 - Entity와 Dto간의 매핑을 지원하는 라이브러리다.
 - Entity와 Dto간의 매핑을 위해 getter/setter를 남발하며 직접 구현하는 것을 지원하는 라이브러리는 크게 ModelMapper와 MpaStruct가 있다.
 - 주로 쓰이는 ModelMapper와 비교했을때, MapStruct는 컴파일시 미리 생성된 구현체를 통해 Mapping하기 때문에 속도적인 측면에서 이점으로 사용했다.
+
+컴파일 시 오류를 확인할 수 있다.
+리플렉션(Reflction)을 사용하지 않기 때문에 매핑 속도가 빠르다.
+디버깅이 쉽다.
+생성된 매핑 코드를 눈으로 직접 확인할 수 있다.

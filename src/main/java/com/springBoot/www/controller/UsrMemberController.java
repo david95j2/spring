@@ -33,4 +33,5 @@ public class UsrMemberController {
 	public String memberInfoDelete(@ModelAttribute MemberSerachRequest request) {
 		return memberService.deleteMemberInfo(request);
 	}
+
 }
