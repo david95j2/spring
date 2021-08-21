@@ -95,3 +95,9 @@ Executor의 구조는 프로듀서-컨슈머 패턴에 기반하고 있으며, �
 리플렉션(Reflction)을 사용하지 않기 때문에 매핑 속도가 빠르다.
 디버깅이 쉽다.
 생성된 매핑 코드를 눈으로 직접 확인할 수 있다.
+
+## Commons lang
+
+표준 Java 라이브러리는 핵심 클래스를 조작할 수 있는 충분한 방법을 제공하지 못합니다. Apache Commons Lang은 이러한 추가 방법을 제공합니다.
+Apache Commons Lang은 java.lang API, 특히 문자열 조작 방법, 기본 수치 방법, 객체 반사, 동시성, 생성 및 직렬화, 시스템 속성을 위한 여러
+도우미 유틸리티를 제공합니다. 또한 java.util.Date에 대한 기본 개선 사항과 hashCode, toString 및 equals와 같은 빌드 메소드 전용 유틸리티 시리즈가 포함되어 있습니다.
