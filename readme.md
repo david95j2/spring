@@ -98,6 +98,8 @@ Executor의 구조는 프로듀서-컨슈머 패턴에 기반하고 있으며, �
 
 ## Commons lang
 
-표준 Java 라이브러리는 핵심 클래스를 조작할 수 있는 충분한 방법을 제공하지 못합니다. Apache Commons Lang은 이러한 추가 방법을 제공합니다.
-Apache Commons Lang은 java.lang API, 특히 문자열 조작 방법, 기본 수치 방법, 객체 반사, 동시성, 생성 및 직렬화, 시스템 속성을 위한 여러
-도우미 유틸리티를 제공합니다. 또한 java.util.Date에 대한 기본 개선 사항과 hashCode, toString 및 equals와 같은 빌드 메소드 전용 유틸리티 시리즈가 포함되어 있습니다.
+Apache Commons Lang 3 라이브러리 는 Java API의 기능 확장을 목표로하는 인기 있고 모든 기능을 갖춘 유틸리티 클래스 패키지이다 .
+
+라이브러리의 레퍼토리는 문자열, 배열 및 숫자 조작, 반영 및 동시성에서 쌍 및 트리플 (일반적으로 튜플 이라고 함)과 같은 여러 순서가 지정된 데이터 구조의 구현에 이르기까지 매우 풍부.
+
+StringUtils , ArrayUtils , NumberUtils , SystemUtils 등의 클래스들이 모여있다.
